@@ -1,6 +1,5 @@
 "use client";
 
-import Vapi from "@vapi-ai/web";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -11,7 +10,6 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { Label } from "@/components/ui/label";
 
-export const vapi = new Vapi("your-public-token");
 
 export default function Home() {
 	const [phoneNumber, setphoneNumber] = useState("");
