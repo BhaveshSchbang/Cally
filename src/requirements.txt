@@ -1,0 +1,8 @@
+FRONTEND
+
+1. Make a basic MVP where the user is able to add phone numbers and name of the user and you call the user with the VAPIAI' api 
+2. Documentation : https://docs.vapi.ai/api-reference/calls/list
+3. User adds a number and name
+4. The app uses VAPI to make the outbound call
+5. After the call we get a rating of the lead 
+    Was the lead interested, uniniterested or other
