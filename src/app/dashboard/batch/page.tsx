@@ -188,9 +188,9 @@ const Page = () => {
           members: [],
         },
         phoneNumber: {
-          twilioAccountSid: "AC230d5533128c68eaa4870d5be4402c82",
-          twilioAuthToken: "f5e00e3637c398fada6fd0fc2b8f868b",
-          twilioPhoneNumber: "+12317292918", //Can be any number in Twillio with the country code
+          twilioAccountSid: process.env.NEXT_PUBLIC_TWILIO_ACCOUNT_SID,
+          twilioAuthToken: process.env.NEXT_PUBLIC_TWILIO_AUTH_TOKEN,
+          twilioPhoneNumber: process.env.NEXT_PUBLIC_TWILIO_PHONE_NUMBER,
         },
         customer: {
           number: `+91 ${phoneNumber}`,

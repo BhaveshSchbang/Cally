@@ -251,9 +251,9 @@ export default function Home() {
           members: [],
         },
         phoneNumber: {
-          twilioAccountSid: process.env.TWILIOSID,
-          twilioAuthToken: process.env.TWILIOAUTHTOKEN,
-          twilioPhoneNumber: process.env.TWILIONUMBER, //Can be any number in Twillio with the country code
+          twilioAccountSid: process.env.NEXT_PUBLIC_TWILIO_ACCOUNT_SID,
+          twilioAuthToken: process.env.NEXT_PUBLIC_TWILIO_AUTH_TOKEN,
+          twilioPhoneNumber: process.env.NEXT_PUBLIC_TWILIO_PHONE_NUMBER,
         },
         customer: {
           number: `${phoneCode} ${phoneNumber}`,
