@@ -1,8 +1,9 @@
 FRONTEND
 
-1. Make a basic MVP where the user is able to add phone numbers and name of the user and you call the user with the VAPIAI' api 
-2. Documentation : https://docs.vapi.ai/api-reference/calls/list
-3. User adds a number and name
-4. The app uses VAPI to make the outbound call
-5. After the call we get a rating of the lead 
-    Was the lead interested, uniniterested or other
+1. Make a UI in the main page
+    The user can add a CSV file the file will have Name, Phone Number and Phone code, Reason for Call
+    After the CSV file is Uploaded the UI will show the data in a table
+    And the user can add data in the table remove a row or edit a row
+    After the UI is ready the user can click on the button to start the call
+    After Each Call is made a check mark will appear in the table next to that row
+    If the call is not successfull the user can click on the call button again to make another call
